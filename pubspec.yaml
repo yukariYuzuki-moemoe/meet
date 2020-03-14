@@ -17,9 +17,12 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  nested:
   curved_navigation_bar:  ^0.3.2
   flutter_icons:
   provider:
+  youtube_player_flutter: ^6.1.0+4
+
 
   flutter:
     sdk: flutter

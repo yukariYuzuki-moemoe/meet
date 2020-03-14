@@ -1,9 +1,8 @@
 import 'package:flutter/cupertino.dart';
-import 'package:meetvoiceroider/component/view/Index.dart';
+import 'package:meetvoiceroider/component/view/index/Index.dart';
 
 @immutable
 class Routes{
-  _Routes(){}
 
   static final routes = <String,WidgetBuilder>{
     '/' : (context) => IndexPage(),
